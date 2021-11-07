@@ -42,19 +42,14 @@
             <!--===== HOME =====-->
             <section class="home" id="home">
                 <div class="home__container bd-grid">
-                    <div class="home__img">
-                        <img src="img/1.png" alt="" data-speed="-2" class="move" class="img_one">
-                        <img src="img/2.png" alt="" data-speed="1" class="move">
-                        <img src="img/3.png" alt="" data-speed="2" class="move">
-                        <img src="img/4.png" alt="" data-speed="-2" class="move">
-                        <img src="img/5.png" alt="" data-speed="-2" class="move">
-                        <img src="img/6.png" alt="" data-speed="2" class="move">
+                <div class="home__img">
+                        <img src="img/food.png" alt="" data-speed="2" class="move">
                     </div>
-
+                    
                     <div class="home__data">
                         <h1 class="home__title">Ifood</h1>
                         <p class="home__description">Tirando a sua fome <br> everday.</p>
-                        <a href="#" class="home__button">Get Started</a>
+                        <a href="#" class="home__button">Faça seu cadastro</a>
                     </div>
                 </div>
             </section>
