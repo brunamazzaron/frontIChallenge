@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -29,10 +31,10 @@
                     </div>
 
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Restaurantes</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Cadastro</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Contato</a></li>
+                        <li class="nav__item"><a href="home.jsp" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="listarRestaurante.jsp" class="nav__link">Lista de Restaurantes</a></li>
+                        <li class="nav__item"><a href="cadastrarRestaurante.jsp" class="nav__link">Cadastro de Restaurantes</a></li>
+                        <li class="nav__item"><a href="listarRestaurante.jsp" class="nav__link">Editar o Cadastro</a></li>
                     </ul>
                 </div>
             </nav>
@@ -49,7 +51,7 @@
                     <div class="home__data">
                         <h1 class="home__title">Ifood</h1>
                         <p class="home__description">Tirando a sua fome <br> everday.</p>
-                        <a href="#" class="home__button">Faça seu cadastro</a>
+                        <a href="#" class="home__button">FaÃ§a seu cadastro</a>
                     </div>
                 </div>
             </section>
