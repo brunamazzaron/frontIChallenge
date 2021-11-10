@@ -1,5 +1,4 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,7 +8,7 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
         <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="css/styles.css">
 
         <title>Ifood</title>
     </head>
@@ -50,7 +49,7 @@
                     
                     <div class="home__data">
                         <h1 class="home__title">Ifood</h1>
-                        <p class="home__description">Tirando a sua fome <br> everday.</p>
+                        <p class="home__description">Tirando a sua fome <br> com as nossas mãos.</p>
                         <a href="#" class="home__button">Faça seu cadastro</a>
                     </div>
                 </div>
@@ -61,6 +60,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
 
         <!--===== MAIN JS =====-->
-        <script src="main.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

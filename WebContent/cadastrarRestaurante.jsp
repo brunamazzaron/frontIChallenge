@@ -42,7 +42,7 @@
                 <h2>Formulário de Cadastro</h2>
             </div>
 
-		<form action="CadastrarRestaurante" method="post">
+		<form action="CadastrarRestaurante" method="get">
             <div class="form-container">
                 <div class="form-info">
                     <span>Nome do Restaurante:</span>

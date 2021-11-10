@@ -1,4 +1,6 @@
-package com.br.ifood;
+package com.br.restaurante.model;
+
+import com.br.ifood.ContaUsuario;
 
 public class Restaurante extends ContaUsuario{
 	
@@ -8,6 +10,30 @@ public class Restaurante extends ContaUsuario{
 	public String dataInauguracao;
 	public int numeroRestaurante;
 	public int numberoCnpj;
+	
+	
+//	public Restaurante() {
+//
+//	}
+//	
+//	public Restaurante(String dataCadastro, String dataInauguracao, int idRestaurante, int codigoCadastro, int numeroRestaurante, int numberoCnpj) {
+//		this.idRestaurante = idRestaurante;
+//		this.codigoCadastro = codigoCadastro;
+//		this.dataCadastro = dataCadastro;
+//		this.dataInauguracao = dataInauguracao;
+//		this.numeroRestaurante = numeroRestaurante;
+//		this.numberoCnpj = numberoCnpj;
+//	}
+//
+//	public void Rest(String dataCadastro, String dataInauguracao, int idRestaurante, int codigoCadastro, int numeroRestaurante, int numberoCnpj) {
+//		this.idRestaurante = idRestaurante;
+//		this.codigoCadastro = codigoCadastro;
+//		this.dataCadastro = dataCadastro;
+//		this.dataInauguracao = dataInauguracao;
+//		this.numeroRestaurante = numeroRestaurante;
+//		this.numberoCnpj = numberoCnpj;
+//	}
+
 	
 	public int getIdRestaurante () {
 		return idRestaurante;
